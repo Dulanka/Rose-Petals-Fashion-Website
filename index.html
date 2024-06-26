@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rose Petals</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+</head>
+
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="pictures/4.png" alt="Logo">
+            </div>
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#new-arrivals">NEW ARRIVALS</a></li>
+                <li><a href="#partners">PARTNERS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+            
+        </div>
+        
+        <div class="mobile-header">
+            <div class="logo">
+                <img src="pictures/4.png" alt="Logo">
+            </div>
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </div>
+        
+        <div id="sidebar" class="sidebar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <ul class="menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#new-arrivals">NEW ARRIVALS</a></li>
+                <li><a href="#partners">PARTNERS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+            </ul>
+        
+        </div>
+        
+        <div id="main">
+           
+        </div>
+        
+        <script>
+            function openNav() {
+                document.getElementById("sidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+        
+            function closeNav() {
+                document.getElementById("sidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }
+        </script>
+        
+        <section id="home"></section>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="pictures/Frame2.png" alt="Slide 1" style="width:100%;">
+            </div>
+            <div class="slide fade">
+                <img src="pictures/Frame3.png" alt="Slide 2" style="width:100%;">
+            </div>
+            <div class="slide fade">
+                <img src="pictures/Frame4.png" alt="Slide 3" style="width:100%;">
+            </div>
+        </div>
+    
+        <div class="dots-container">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        <div class="leftt-section">
+            <h2 class="hr-lines">  PRODUCTS </h2>
+        </div>
+        <section id="products">
+        <div class="container">
+            <div class="row">
+                <div class="card">
+                    <img src="pictures/bag.png" alt="Product 1">
+                    <h2>LV Bags</h2>
+                    
+                </div>
+                <div class="card">
+                    <img src="pictures/boots.png" alt="Product 2">
+                    <h2>Boots</h2>
+                    
+                </div>
+                <div class="card">
+                    <img src="pictures/rings.png" alt="Product 3">
+                    <h2>Rings</h2>
+                    
+                </div>
+                <div class="card">
+                    <img src="pictures/shirt.png" alt="Product 3">
+                    <h2>Shirts</h2>
+                    
+                </div>
+                <div class="card">
+                    <img src="pictures/BELT.png" alt="Product 3">
+                    <h2>Shirts</h2>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <img src="pictures/hils.png" alt="Product 4">
+                    <h2>Heels</h2>
+                   
+                </div>
+                <div class="card">
+                    <img src="pictures/cap.png" alt="Product 5">
+                    <h2>caps</h2>
+                  
+                </div>
+                <div class="card">
+                    <img src="pictures/car.png" alt="Product 6">
+                    <h2>Toys</h2>
+                  
+                </div>
+                <div class="card">
+                    <img src="pictures/teddy.png" alt="Product 6">
+                    <h2>Teddys</h2>
+                   
+                </div>
+                <div class="card">
+                    <img src="pictures/SNEAKER.png" alt="Product 6">
+                    <h2>Watches</h2>
+                   
+                </div>
+    
+            </div>
+            
+            <div class="leftt-section">
+                <h2 class="hr-lines"> NEW ARRIVALS </h2>
+                
+            </div>
+            <section id="new-arrivals">
+            <div class="picture1">
+                <img src="pictures/Frame 5.png" alt="Product 6">
+                </div>
+            </div>
+            <div class="leftt-section">
+                <h2 class="hr-lines">  BENIFITS </h2>
+            </div>
+                <div class="container1">
+                   
+                    <div class="card">
+                        <img src="pictures/15.png" alt="Product 6">
+                        <h2></h2>
+                    </div>
+                    <div class="card">
+                        <img src="pictures/16.png" alt="Product 6">
+                        <h2></h2>
+                    </div>
+                    <div class="card">
+                        <img src="pictures/17.png" alt="Product 6">
+                        <h2></h2>
+                    </div>
+                </div>
+           
+
+
+
+
+                <section id="partners">
+                <div class="leftt-section">
+                    <h2 class="hr-lines"> PARTNERS  </h2>
+                </div>
+                <div class="partners-section">
+                    <div class="partner-logos">
+                        <img src="pictures/logos/boss.png" alt="Partner 1">
+                        <img src="pictures/logos/buberry.png" alt="Partner 2">
+                        <img src="pictures/logos/calvin.png" alt="Partner 3">
+                        <img src="pictures/logos/channel.png" alt="Partner 4">
+                        <img src="pictures/logos/fila.png" alt="Partner 5">
+                        <img src="pictures/logos/tommy.png" alt="Partner 6">
+                        <img src="pictures/logos/ea7.png" alt="Partner 7">
+                        <img src="pictures/logos/zara.png" alt="Partner 8">
+                    </div>
+                </div>
+                
+                </div>
+        </div>
+    
+          
+              
+          
+        <script src="SCRIPT.JS"></script>
+        <section id="contact"></section>
+        <div class="leftt-section">
+            <h2 class="hr-lines"> CONTACT US </h2>
+        </div>
+        <div class="content">
+            <div class="box left-box">
+                <div class="photo">
+                    <img src="pictures/contact.png" alt="Your Photo">
+                </div>
+            </div>
+            <div class="box right-box">
+                <div class="boxx">
+                    <form action="/submit_contact" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="first_name" placeholder="Your Name" required class="contact-input">
+                            <input type="hidden" name="access_key" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="last_name" placeholder="Last Name" required class="contact-input">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required class="contact-input">
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required class="contact-input"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Send Message <img src="assets/arrow_icon.png" alt=""></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <section class="gift_section layout_padding-bottom">
+            <div class="box ">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-5">
+                    <div class="img_container">
+                      <div class="img-box">
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-7">
+                    <div class="detail-box">
+                      <div class="heading_container">
+                        <h2>
+                          Gifts for your <br>
+                          loved ones
+                        </h2>
+                      </div>
+                      <p><b>
+                        Gifting items intended for those dear to you, encompassing a thoughtful selection of presents tailored to express affection, appreciation, and care towards family members, friends, or significant others.
+                      </bb></p>
+                      <div class="btn-box">
+                        <a href="#" class="btn1">
+                          Buy Now
+                        </a>
+                        <a href="#" class="btn2">
+                          See More
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <footer>
+            <div class="footer-top">
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>About Us</h3>
+                        <p>Step into our world and discover a curated collection of apparel that embodies sophistication, style, and grace. From luxurious fabrics to exquisite designs, each piece in our collection is meticulously crafted to resonate with the modern-day trendsetter while honoring the classic allure of timeless fashion..</p>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#partners">Partners</a></li>
+                            <li><a href="#products">Products</a></li>
+                            <li><a href="#new-arrivals">New Arrivals</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Contact Us</h3>
+                        <p>Email: info@rosepetals.com</p>
+                        <p>Phone: +94 2345678</p>
+                        <p>Address: 65/8,aniwatta,kandy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-container">
+                    <div class="footer-section">
+                        <h3>Follow Us</h3>
+                        <ul class="social-icons">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h3>Newsletter</h3>
+                        <form action="#" method="post">
+                            <input type="email" name="email" placeholder="Your Email">
+                            <button type="submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-container">
+                    <p>&copy; 2024 Rose Petals. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+</html>
